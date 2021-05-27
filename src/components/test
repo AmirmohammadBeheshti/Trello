@@ -1,0 +1,22 @@
+// const [inputValue, setInputValue] = useState('');
+// const [opts, setOpts] = useState(allOptions);
+// const inputEl = useRef(null);
+//
+// useEffect(() => {
+//     inputEl.current = inputValue; // Write it to the ref
+// });
+//
+// const searchFilter = useCallback(
+//     (val) => {
+//         setInputValue(val);
+//         const filter = val.toUpperCase();
+//         const ops = options.filter((opt) => opt.text.toUpperCase().indexOf(filter) > -1);
+//         setOpts(ops);
+//     }, [inputEl]
+// );
+//
+// <textArea
+//     ref={inputEl}
+//     onChange={(e) => searchFilter(e.target.value)}
+//     value={inputValue}
+// />
